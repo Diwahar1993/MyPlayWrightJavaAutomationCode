@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="IRCTC Test Regression PW Suite" thread-count="1"
+       parallel="tests" verbose="4">
+    <listeners>
+        <listener
+                class-name ="com.qa.ulearn.listeners.ExtentReportListener" />
+
+    </listeners>
+
+    <test name="IRCTC Home Page Test">
+
+        <classes>
+            <class name="com.qa.ulearn.tests.IRCTCLoginPageTest" />
+
+        </classes>
+    </test>
+
+
+
+
+
+</suite>

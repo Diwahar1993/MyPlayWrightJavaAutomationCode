@@ -1,0 +1,44 @@
+{
+  "createNewCourseData": [
+    {
+      "General": {
+        "courseFullName": "",
+        "courseShortName": "",
+        "courseCategory": "",
+        "courseVisibility": "",
+        "courseIDNumber": ""
+      },
+      "Description": {
+        "courseSummary": ""
+      },
+      "CourseFormat": {
+        "format": "",
+        "typeOfActivity": ""
+      },
+      "LearningSettings": {
+        "Status": "",
+        "Duration": "",
+        "learningObjective": ""
+      },
+      "Appearance": {
+        "forceLanguage": ""
+      },
+      "Tags": {
+        "tagNames": ""
+      },
+      "certificate": {
+        "enableCourseCertificate": ""
+      },
+      "ImperiumCourse": {
+        "isEnabled": ""
+      },
+      "jobCodeMapping": {
+        "jobCode": ""
+      },
+      "globalISOAccessibility": {
+        "AccessibilityStatus": ""
+      }
+    }
+
+  ]
+}
