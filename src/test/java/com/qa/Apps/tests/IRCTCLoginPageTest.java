@@ -1,7 +1,6 @@
-package com.qa.ulearn.tests;
+package com.qa.Apps.tests;
 
-import com.qa.ulearn.base.BaseTest;
-import com.qa.ulearn.constants.AppConstants;
+import com.qa.Apps.base.BaseTest;
 import net.sourceforge.tess4j.TesseractException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -14,9 +13,12 @@ public class IRCTCLoginPageTest extends BaseTest {
         String actualTitle = irctcLoginPage.getHomePageTitle();
         irctcLoginPage.clickLoginButton();
         Assert.assertEquals(actualTitle, "IRCTC Next Generation eTicketing System");
-        String loginName = irctcLoginPage.loginAsUser("Diwahar93","@Diwa1993");
+        String loginName = irctcLoginPage.loginAsUser("Diwahar93", "@Diwa1993");
 
         Assert.assertEquals(loginName, "Welcome Diwahar Pandian (Diwahar93)");
+        // choose origin
+        //choose destination
+        // select tatkal from dropdown
 
 
 

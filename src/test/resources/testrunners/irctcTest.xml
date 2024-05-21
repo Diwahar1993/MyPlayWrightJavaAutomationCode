@@ -4,20 +4,17 @@
        parallel="tests" verbose="4">
     <listeners>
         <listener
-                class-name ="com.qa.ulearn.listeners.ExtentReportListener" />
+                class-name="com.qa.Apps.listeners.ExtentReportListener"/>
 
     </listeners>
 
     <test name="IRCTC Home Page Test">
 
         <classes>
-            <class name="com.qa.ulearn.tests.IRCTCLoginPageTest" />
+            <class name="com.qa.Apps.tests.IRCTCLoginPageTest"/>
 
         </classes>
     </test>
-
-
-
 
 
 </suite>

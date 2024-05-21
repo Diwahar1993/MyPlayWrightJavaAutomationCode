@@ -1,4 +1,4 @@
-package com.qa.ulearn.utils;
+package com.qa.Apps.utils;
 
 import com.github.javafaker.Faker;
 
@@ -12,13 +12,15 @@ public class FakerUtils {
 
     String streetAddress = faker.address().streetAddress(); // 60018 Sawayn Brooks Suite 449
 
-    public static String getRandomCourseName(){
-        return faker.gameOfThrones().character()+" "+faker.artist().name();
+    public static String getRandomCourseName() {
+        return faker.gameOfThrones().character() + " " + faker.artist().name();
     }
-    public static String getRandomDescriptions(){
+
+    public static String getRandomDescriptions() {
         return faker.address().fullAddress();
     }
-    public static String getRandomNumber(){
+
+    public static String getRandomNumber() {
         return faker.number().digits(5);
     }
 }
